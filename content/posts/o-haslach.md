@@ -1,3 +1,9 @@
+---
+title: "O hasłach"
+date: 2016-11-05T18:41:58+01:00
+draft: false
+---
+
 ### tl:dr
 ![alt text][tldr]
 ###### Komiks pożyczony z xkcd.com
