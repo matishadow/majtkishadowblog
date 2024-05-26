@@ -1,0 +1,44 @@
+baseurl = "/"
+languageCode = "pl-pl"
+theme = "hello-friend-ng"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "O zabezpieczeniach i kodowaniu"
+  images = [""]
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+
+[languages]
+  [languages.en]
+    title = "O zabezpieczeniach i kodowaniu"
+    keywords = ""
+    copyright = ""
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "majtkishadow's blog"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-examene-logo.svg"
+    # alt = "Your examene logo alt text"
+
+	# You can create a language based menu
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "blog"
+        name = "Posty"
+        url = "/posts"
+    [[languages.en.menu.main]]
+        identifier = "english-blog"
+        name = "Blog w języku angielskim"
+        url = "https://matishadow-blog.gear.host/"
